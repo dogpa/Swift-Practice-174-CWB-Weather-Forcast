@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3B329528CB29D800A9C36A /* ForcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B329428CB29D800A9C36A /* ForcastModel.swift */; };
+		2D3B329728CB2AFC00A9C36A /* TypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B329628CB2AFC00A9C36A /* TypeExtension.swift */; };
 		2DFE3A6C28CAF4CB00A82658 /* Swift_Practice_174_CWB_Weather_ForcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A6B28CAF4CB00A82658 /* Swift_Practice_174_CWB_Weather_ForcastApp.swift */; };
 		2DFE3A6E28CAF4CB00A82658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A6D28CAF4CB00A82658 /* ContentView.swift */; };
 		2DFE3A7028CAF4CD00A82658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFE3A6F28CAF4CD00A82658 /* Assets.xcassets */; };
 		2DFE3A7328CAF4CD00A82658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFE3A7228CAF4CD00A82658 /* Preview Assets.xcassets */; };
+		2DFE3A7A28CAF52900A82658 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A7928CAF52900A82658 /* WeatherCondition.swift */; };
+		2DFE3A7C28CB01C800A82658 /* CWBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A7B28CB01C800A82658 /* CWBViewModel.swift */; };
+		2DFE3A7E28CB038600A82658 /* CWBJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A7D28CB038600A82658 /* CWBJsonModel.swift */; };
+		2DFE3A8028CB14F500A82658 /* taiwanCountyAndDist.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DFE3A7F28CB14F500A82658 /* taiwanCountyAndDist.json */; };
+		2DFE3A8228CB150B00A82658 /* CountyAndDIstModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A8128CB150B00A82658 /* CountyAndDIstModel.swift */; };
+		2DFE3A8528CB194D00A82658 /* APICountyIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE3A8428CB194D00A82658 /* APICountyIndex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D3B329428CB29D800A9C36A /* ForcastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastModel.swift; sourceTree = "<group>"; };
+		2D3B329628CB2AFC00A9C36A /* TypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeExtension.swift; sourceTree = "<group>"; };
 		2DFE3A6828CAF4CB00A82658 /* Swift Practice 174 CWB Weather Forcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice 174 CWB Weather Forcast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFE3A6B28CAF4CB00A82658 /* Swift_Practice_174_CWB_Weather_ForcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Practice_174_CWB_Weather_ForcastApp.swift; sourceTree = "<group>"; };
 		2DFE3A6D28CAF4CB00A82658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFE3A6F28CAF4CD00A82658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFE3A7228CAF4CD00A82658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFE3A7928CAF52900A82658 /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
+		2DFE3A7B28CB01C800A82658 /* CWBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWBViewModel.swift; sourceTree = "<group>"; };
+		2DFE3A7D28CB038600A82658 /* CWBJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWBJsonModel.swift; sourceTree = "<group>"; };
+		2DFE3A7F28CB14F500A82658 /* taiwanCountyAndDist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = taiwanCountyAndDist.json; sourceTree = "<group>"; };
+		2DFE3A8128CB150B00A82658 /* CountyAndDIstModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyAndDIstModel.swift; sourceTree = "<group>"; };
+		2DFE3A8428CB194D00A82658 /* APICountyIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICountyIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +48,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3B329828CB8AF300A9C36A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DFE3A7B28CB01C800A82658 /* CWBViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D4F4F2828CB921D00CA9A68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DFE3A6D28CAF4CB00A82658 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2DFE3A5F28CAF4CB00A82658 = {
 			isa = PBXGroup;
 			children = (
+				2DFE3A7F28CB14F500A82658 /* taiwanCountyAndDist.json */,
 				2DFE3A6A28CAF4CB00A82658 /* Swift Practice 174 CWB Weather Forcast */,
 				2DFE3A6928CAF4CB00A82658 /* Products */,
 			);
@@ -52,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				2DFE3A6B28CAF4CB00A82658 /* Swift_Practice_174_CWB_Weather_ForcastApp.swift */,
-				2DFE3A6D28CAF4CB00A82658 /* ContentView.swift */,
+				2D4F4F2828CB921D00CA9A68 /* View */,
+				2D3B329828CB8AF300A9C36A /* ViewModel */,
+				2DFE3A8328CB151000A82658 /* Model */,
 				2DFE3A6F28CAF4CD00A82658 /* Assets.xcassets */,
 				2DFE3A7128CAF4CD00A82658 /* Preview Content */,
 			);
@@ -65,6 +100,19 @@
 				2DFE3A7228CAF4CD00A82658 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DFE3A8328CB151000A82658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DFE3A7928CAF52900A82658 /* WeatherCondition.swift */,
+				2DFE3A8428CB194D00A82658 /* APICountyIndex.swift */,
+				2DFE3A7D28CB038600A82658 /* CWBJsonModel.swift */,
+				2DFE3A8128CB150B00A82658 /* CountyAndDIstModel.swift */,
+				2D3B329428CB29D800A9C36A /* ForcastModel.swift */,
+				2D3B329628CB2AFC00A9C36A /* TypeExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +175,7 @@
 			files = (
 				2DFE3A7328CAF4CD00A82658 /* Preview Assets.xcassets in Resources */,
 				2DFE3A7028CAF4CD00A82658 /* Assets.xcassets in Resources */,
+				2DFE3A8028CB14F500A82658 /* taiwanCountyAndDist.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3B329528CB29D800A9C36A /* ForcastModel.swift in Sources */,
+				2D3B329728CB2AFC00A9C36A /* TypeExtension.swift in Sources */,
 				2DFE3A6E28CAF4CB00A82658 /* ContentView.swift in Sources */,
+				2DFE3A8528CB194D00A82658 /* APICountyIndex.swift in Sources */,
+				2DFE3A8228CB150B00A82658 /* CountyAndDIstModel.swift in Sources */,
+				2DFE3A7E28CB038600A82658 /* CWBJsonModel.swift in Sources */,
+				2DFE3A7C28CB01C800A82658 /* CWBViewModel.swift in Sources */,
+				2DFE3A7A28CAF52900A82658 /* WeatherCondition.swift in Sources */,
 				2DFE3A6C28CAF4CB00A82658 /* Swift_Practice_174_CWB_Weather_ForcastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
